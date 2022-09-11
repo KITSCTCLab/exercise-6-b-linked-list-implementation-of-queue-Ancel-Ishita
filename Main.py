@@ -4,7 +4,7 @@ class Node:
     self.next = None
 
 
-class Queue:
+class Queue
   def __init__(self):
     self.head = None
     self.last = None
@@ -48,6 +48,6 @@ data = input_data.split(',')
 for i in range(len(operations)):
   if operations[i] == "enqueue":
     queue.enqueue(int(data[i]))
-  elif operations[i] = "dequeue":
+  elif operations[i] == "dequeue":
     queue.dequeue()
 queue.status()
